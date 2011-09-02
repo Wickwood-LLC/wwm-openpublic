@@ -40,7 +40,7 @@ projects[openpublic][version] = 1.0-beta2
 
 ; Modules
 ; --------
-projects[securesite][version] = 7.x-2.x-dev
+projects[securesite][version] = 2.x-dev
 projects[securesite][type] = "module"
 
   
