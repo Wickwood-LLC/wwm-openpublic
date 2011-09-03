@@ -31,7 +31,7 @@ api = 2
 ; http://drupal.org/project/openpublic
 ; http://drupalcode.org/project/openpublic.git/blob_plain/refs/heads/7.x-1.x:/build-openpublic.make
 projects[drupal][type] = core
-projects[drupal][version] = "7.7"
+projects[drupal][version] = "7.8"
 projects[drupal][patch][] = http://drupal.org/files/issues/object_conversion_menu_router_build-972536-1.patch
 projects[drupal][patch][] = http://drupal.org/files/issues/992540-3-reset_flood_limit_on_password_reset-drush.patch
 projects[openpublic][version] = 1.0-beta2
@@ -52,5 +52,7 @@ projects[securesite][type] = "module"
   
 ; Libraries
 ; ---------
-; No libraries were included
+libraries[colorbox][type] = "libraries"
+libraries[colorbox][download][type] = "file"
+libraries[colorbox][download][url] = "http://colorpowered.com/colorbox/latest"
 
