@@ -40,6 +40,8 @@ projects[openpublic][version] = 1.0-beta2
 
 ; Modules
 ; --------
+projects[] = mailchimp
+projects[] = paypal_donate
 projects[securesite][version] = 2.x-dev
 projects[securesite][type] = "module"
 
