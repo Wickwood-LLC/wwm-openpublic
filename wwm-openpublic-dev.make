@@ -40,7 +40,8 @@ projects[openpublic][version] = 1.0-beta2
 
 ; Modules
 ; --------
-projects[] = node_clone
+projects[node_clone][version] = 7.x-1.0-beta1
+projects[node_clone][type] = "module"
 projects[] = mailchimp
 projects[] = paypal_donate
 projects[securesite][version] = 2.x-dev
