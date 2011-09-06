@@ -46,7 +46,8 @@ projects[] = mailchimp
 projects[] = paypal_donate
 projects[securesite][version] = 2.x-dev
 projects[securesite][type] = "module"
-projects[] = site_verify
+projects[site_verify][version] = 7.x-1.0
+projects[site_verify][type] = "module"
 
   
 
