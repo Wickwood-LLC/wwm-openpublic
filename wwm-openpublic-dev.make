@@ -25,7 +25,7 @@ api = 2
 ; a core project. This is usually Drupal core, but you can also specify
 ; alternative core projects like Pressflow. Note that makefiles included with
 ; install profiles *should not* include a core project.
-  
+
 ; Use OpenPublic instead of Drupal core:
 ; These commands were taken from:
 ; http://drupal.org/project/openpublic
@@ -35,7 +35,6 @@ projects[drupal][version] = "7.8"
 projects[drupal][patch][] = http://drupal.org/files/issues/object_conversion_menu_router_build-972536-1.patch
 projects[drupal][patch][] = http://drupal.org/files/issues/992540-3-reset_flood_limit_on_password_reset-drush.patch
 projects[openpublic][version] = 1.0-beta2
-
 
 
 ; Modules
@@ -48,14 +47,13 @@ projects[securesite][version] = 2.x-dev
 projects[securesite][type] = "module"
 projects[site_verify][version] = 1.0
 projects[site_verify][type] = "module"
+projects[] = stringoverrides
 
-  
 
 ; Themes
 ; --------
 
-  
-  
+
 ; Libraries
 ; ---------
 libraries[colorbox][type] = "libraries"
