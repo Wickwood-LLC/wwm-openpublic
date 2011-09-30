@@ -39,15 +39,18 @@ projects[openpublic][version] = 1.0-beta2
 
 ; Modules
 ; --------
+projects[] = entity
 projects[node_clone][version] = 1.0-beta1
 projects[node_clone][type] = "module"
 projects[] = mailchimp
 projects[] = paypal_donate
+projects[] = rules
 projects[securesite][version] = 2.x-dev
 projects[securesite][type] = "module"
 projects[site_verify][version] = 1.0
 projects[site_verify][type] = "module"
 projects[] = stringoverrides
+projects[] = webform_rules
 
 
 ; Themes
