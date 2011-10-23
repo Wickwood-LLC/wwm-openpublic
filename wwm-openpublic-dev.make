@@ -39,6 +39,7 @@ projects[openpublic][version] = 1.0-beta2
 
 ; Modules
 ; --------
+projects[] = facebook_pull
 projects[] = entity
 projects[node_clone][version] = 1.0-beta1
 projects[node_clone][type] = "module"
@@ -55,6 +56,8 @@ projects[] = webform_rules
 
 ; Themes
 ; --------
+projects[ninesixty][version] = 1.0
+projects[ninesixty][type] = "theme"
 
 
 ; Libraries
@@ -62,4 +65,10 @@ projects[] = webform_rules
 libraries[colorbox][type] = "libraries"
 libraries[colorbox][download][type] = "file"
 libraries[colorbox][download][url] = "http://colorpowered.com/colorbox/latest"
+libraries[html5bp][download][type] = "file"
+libraries[html5bp][download][url] = "http://github.com/paulirish/html5-boilerplate/zipball/v1.0stripped"
+libraries[jquery][download][type] = "file"
+libraries[jquery][download][url] = "https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"
+libraries[jqueryui][download][type] = "file"
+libraries[jqueryui][download][url] = "https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.12/jquery-ui.min.js"
 
