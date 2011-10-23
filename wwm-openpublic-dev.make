@@ -39,11 +39,13 @@ projects[openpublic][version] = 1.0-beta2
 
 ; Modules
 ; --------
-projects[] = facebook_pull
 projects[] = entity
+projects[] = facebook_pull
+projects[] = globalredirect
 projects[node_clone][version] = 1.0-beta1
 projects[node_clone][type] = "module"
 projects[] = mailchimp
+projects[] = page_title
 projects[] = paypal_donate
 projects[] = redirect
 projects[] = rules
