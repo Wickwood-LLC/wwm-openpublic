@@ -34,27 +34,40 @@ projects[drupal][type] = core
 projects[drupal][version] = "7.8"
 projects[drupal][patch][] = http://drupal.org/files/issues/object_conversion_menu_router_build-972536-1.patch
 projects[drupal][patch][] = http://drupal.org/files/issues/992540-3-reset_flood_limit_on_password_reset-drush.patch
-projects[openpublic][version] = 1.0-beta2
+projects[openpublic][version] = 1.0-beta3
 
 
 ; Modules
 ; --------
+projects[] = colorbox
+projects[] = comment_notify
+projects[] = context_bool_field
+projects[] = date
+projects[] = entitycache
 projects[] = entity
 projects[] = facebook_pull
+projects[] = fblikebutton
+projects[] = features
+projects[] = field_group
 projects[] = globalredirect
-projects[node_clone][version] = 1.0-beta1
-projects[node_clone][type] = "module"
+projects[] = imce
+projects[] = link
 projects[] = mailchimp
+projects[] = node_clone
+projects[] = nodequeue
 projects[] = page_title
 projects[] = paypal_donate
 projects[] = redirect
 projects[] = rules
 projects[securesite][version] = 2.x-dev
 projects[securesite][type] = "module"
+projects[] = service_links
 projects[] = seo_checklist
-projects[site_verify][version] = 1.0
-projects[site_verify][type] = "module"
+projects[] = site_verify
 projects[] = stringoverrides
+projects[] = strongarm
+projects[] = token
+projects[] = webform
 projects[] = webform_rules
 
 
@@ -66,9 +79,8 @@ projects[ninesixty][type] = "theme"
 
 ; Libraries
 ; ---------
-libraries[colorbox][type] = "libraries"
 libraries[colorbox][download][type] = "file"
-libraries[colorbox][download][url] = "http://colorpowered.com/colorbox/latest"
+libraries[colorbox][download][url] = "http://jacklmoore.com/colorbox/colorbox.zip"
 libraries[html5bp][download][type] = "file"
 libraries[html5bp][download][url] = "http://github.com/paulirish/html5-boilerplate/zipball/v1.0stripped"
 libraries[jquery][download][type] = "file"
