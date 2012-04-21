@@ -35,8 +35,10 @@ api = 2
 ; projects[drupal][patch][] = http://drupal.org/files/issues/object_conversion_menu_router_build-972536-1.patch
 ; projects[drupal][patch][] = http://drupal.org/files/issues/992540-3-reset_flood_limit_on_password_reset-drush.patch
 ; projects[openpublic][version] = 1.0-beta3
-projects[] = drupal
-projects[] = openpublic
+; projects[] = drupal
+; projects[] = openpublic
+includes[] = drupal-org-core.make
+projects[openpublic][version] = 1.0-beta7
 
 ; Modules
 ; --------
