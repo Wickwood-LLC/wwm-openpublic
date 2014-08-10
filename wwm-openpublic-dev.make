@@ -44,6 +44,7 @@ projects[openpublic][download][revision] = appify_services
 
 ; Modules
 ; --------
+projects[] = backup_migrate
 projects[] = colorbox
 projects[] = comment_notify
 projects[] = context_bool_field
