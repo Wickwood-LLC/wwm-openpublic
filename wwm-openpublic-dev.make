@@ -29,8 +29,7 @@ api = 2
 ; Use OpenPublic instead of Drupal core:
 ; These commands were taken from the drush make files 
 ; in profile directory in the download from: http://drupal.org/project/openpublic
-; Updated drupal to the latest version
-projects[drupal][version] = 7.33
+projects[drupal][version] = 7.31
 projects[drupal][type] = core
 projects[drupal][patch][972536] = http://drupal.org/files/issues/object_conversion_menu_router_build-972536-1.patch
 projects[drupal][patch][992540] = http://drupal.org/files/issues/992540-3-reset_flood_limit_on_password_reset-drush.patch
