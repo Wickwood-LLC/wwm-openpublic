@@ -45,9 +45,9 @@ projects[openpublic][download][revision] = appify_services
 ; Modules
 ; --------
 projects[] = backup_migrate
-projects[] = colorbox
-; projects[colorbox][type] = "module"
-; projects[colorbox][version] = 1.6
+; projects[] = colorbox
+projects[colorbox][type] = "module"
+projects[colorbox][version] = 2.x-dev
 projects[colorbox][patch][] = "https://www.drupal.org/files/issues/undefined_function_libraries_load-1851590-6.patch"
 projects[] = comment_notify
 projects[] = context_bool_field
