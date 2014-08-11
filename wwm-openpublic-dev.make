@@ -90,9 +90,8 @@ projects[ninesixty][type] = "theme"
 
 ; Libraries
 ; ---------
-; libraries[colorbox][download][type] = "git"
-; libraries[colorbox][download][url] = "https://github.com/jackmoore/colorbox.git"
-; libraries[colorbox][download][branch] = master
+libraries[colorbox][download][type] = "file"
+libraries[colorbox][download][url] = "https://github.com/jackmoore/colorbox/archive/master.zip"
 libraries[html5bp][download][type] = "file"
 libraries[html5bp][download][url] = "http://github.com/paulirish/html5-boilerplate/zipball/v1.0stripped"
 libraries[jquery][download][type] = "file"
@@ -101,4 +100,8 @@ libraries[jqueryui][download][type] = "file"
 libraries[jqueryui][download][url] = "https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.12/jquery-ui.min.js"
 ; libraries[jqueryui][download][type] = "git"
 ; libraries[jqueryui][download][url] = https://github.com/shenzhuxi/bookreader
+libraries[mailchimp][download][type] = "get"
+libraries[mailchimp][download][url] = "https://bitbucket.org/mailchimp/mailchimp-api-php/get/2.0.4.zip"
+libraries[mailchimp][directory_name] = "mailchimp"
+libraries[mailchimp][destination] = "libraries"
 
