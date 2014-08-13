@@ -44,13 +44,24 @@ projects[openpublic][download][revision] = appify_services
 
 ; Modules
 ; --------
+projects[] = advanced_help
 projects[] = backup_migrate
+projects[] = captcha
+projects[] = checklistapi
+
+: Reviewed 2014-08-11
+; Had to use dev version and apply patch to upgrade from platform that did not have libaries module installed
 ; projects[] = colorbox
 projects[colorbox][type] = "module"
 projects[colorbox][version] = 2.x-dev
 projects[colorbox][patch][] = "https://www.drupal.org/files/issues/undefined_function_libraries_load-1851590-6.patch"
+
+projects[] = conditional_styles
 projects[] = comment_notify
+projects[] = context
 projects[] = context_bool_field
+projects[] = context_breadcrumb_current_page
+projects[] = ctools
 projects[] = date
 projects[] = entitycache
 projects[] = entity
@@ -58,12 +69,23 @@ projects[] = facebook_pull
 projects[] = fblikebutton
 projects[] = features
 projects[] = field_group
+projects[] = filefield_nginx_progress
+
+; Reviewed 2014-08-11
+; Fileviewer module has been moved into pdf module
+; and can be removed once that is properly implemented
 ; projects[] = fileviewer
+
+projects[] = follow
+projects[] = google_analytics
+projects[] = google_analytics_reports
+projects[] = googleanalytics_perpage
 projects[] = globalredirect
 projects[] = imce
 projects[] = link
 projects[] = libraries
 projects[] = mailchimp
+
 ; Reviewed on 2014-08-06 (No change)
 ; The following module needs to use the 1.x-dev version 
 ; because version 2 is not ready for production and 
@@ -156,13 +178,21 @@ projects[media_wysiwyg_view_mode][download][url] = "http://git.drupal.org/sandbo
 projects[] = media_vimeo
 projects[] = media_youtube
 projects[] = mediafront
-
+projects[] = multiform
 projects[] = node_clone
+projects[] = node_reference_view_formatter
+projects[] = nodeblock
+projects[] = nodeconnect
 projects[] = nodequeue
 projects[] = page_title
+projects[] = panels
 projects[] = paypal_donate
 projects[] = password_policy 
+projects[] = pdf
+projects[] = plupload
+projects[] = recaptcha
 projects[] = redirect
+projects[] = robotstxt
 projects[] = rules
 projects[securesite][version] = 2.x-dev
 projects[securesite][type] = "module"
@@ -172,12 +202,33 @@ projects[] = site_verify
 projects[] = stringoverrides
 projects[] = strongarm
 projects[] = token
+projects[] = transliteration
+projects[] = twitter_pull
+
+; Reviewed on 2014-08-11 (No change)
+; The following item needs to have a patch applied
+; from https://drupal.org/node/1249684#comment-6355236 to prevent exposed filter on Roles to stop dissappearing when  
+; "Only has 'authenticated user' role" or "Has roles in addition to 'authenticated user' ".
+; projects[] = views
+; projects[views][version] = 3.x-dev
+; projects[views][patch][] = "https://drupal.org/files/views-1249684-dependency-exposed-filter.patch"
+; Patch did not apply so pulling from WWM Github Repo
+projects[views][type] = "module"
+projects[views][download][type] = "git"
+projects[views][download][url] = "https://github.com/wickwood/views.git"
+projects[views][download][branch] = 7.x-3.x-wwm
+
+projects[] = video_filter
 projects[] = webform
 projects[] = webform_rules
+projects[] = xmlsitemap
+
+
 
 
 ; Themes
 ; --------
+projects[] = rubik
 projects[ninesixty][version] = 1.0
 projects[ninesixty][type] = "theme"
 
@@ -198,4 +249,6 @@ libraries[mailchimp][download][type] = "get"
 libraries[mailchimp][download][url] = "https://bitbucket.org/mailchimp/mailchimp-api-php/get/2.0.4.zip"
 libraries[mailchimp][directory_name] = "mailchimp"
 libraries[mailchimp][destination] = "libraries"
+libraries[pdf][download][type] = "file"
+libraries[pdf][download][url] = "https://github.com/mozilla/pdf.js/releases/download/v1.0.277/pdfjs-1.0.277-dist.zip"
 
