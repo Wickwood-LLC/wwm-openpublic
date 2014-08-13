@@ -213,10 +213,10 @@ projects[] = twitter_pull
 ; projects[views][version] = 3.x-dev
 ; projects[views][patch][] = "https://drupal.org/files/views-1249684-dependency-exposed-filter.patch"
 ; Patch did not apply so pulling from WWM Github Repo
-projects[views][type] = "module"
-projects[views][download][type] = "git"
-projects[views][download][url] = "https://github.com/wickwood/views.git"
-projects[views][download][branch] = 7.x-3.x-wwm
+; projects[views][type] = "module"
+; projects[views][download][type] = "git"
+; projects[views][download][url] = "https://github.com/wickwood/views.git"
+; projects[views][download][branch] = 7.x-3.x-wwm
 
 projects[] = video_filter
 projects[] = webform
