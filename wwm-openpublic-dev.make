@@ -52,9 +52,9 @@ projects[] = checklistapi
 : Reviewed 2014-08-11
 ; Had to use dev version and apply patch to upgrade from platform that did not have libaries module installed
 ; projects[] = colorbox
-projects[colorbox][type] = "module"
-projects[colorbox][version] = 2.x-dev
-projects[colorbox][patch][] = "https://www.drupal.org/files/issues/undefined_function_libraries_load-1851590-6.patch"
+; projects[colorbox][type] = "module"
+; projects[colorbox][version] = 2.x-dev
+; projects[colorbox][patch][] = "https://www.drupal.org/files/issues/undefined_function_libraries_load-1851590-6.patch"
 
 projects[] = conditional_styles
 projects[] = comment_notify
