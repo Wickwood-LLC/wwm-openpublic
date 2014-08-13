@@ -213,10 +213,10 @@ projects[] = twitter_pull
 ; projects[views][version] = 3.x-dev
 ; projects[views][patch][] = "https://drupal.org/files/views-1249684-dependency-exposed-filter.patch"
 ; Patch did not apply so pulling from WWM Github Repo
-projects[views][type] = "module"
-projects[views][download][type] = "git"
-projects[views][download][url] = "https://github.com/wickwood/views.git"
-projects[views][download][branch] = 7.x-3.x-wwm
+; projects[views][type] = "module"
+; projects[views][download][type] = "git"
+; projects[views][download][url] = "https://github.com/wickwood/views.git"
+; projects[views][download][branch] = 7.x-3.x-wwm
 
 projects[] = video_filter
 projects[] = webform
@@ -235,8 +235,8 @@ projects[ninesixty][type] = "theme"
 
 ; Libraries
 ; ---------
-libraries[colorbox][download][type] = "file"
-libraries[colorbox][download][url] = "https://github.com/jackmoore/colorbox/archive/1.x.zip"
+; libraries[colorbox][download][type] = "file"
+; libraries[colorbox][download][url] = "https://github.com/jackmoore/colorbox/archive/1.x.zip"
 libraries[html5bp][download][type] = "file"
 libraries[html5bp][download][url] = "http://github.com/paulirish/html5-boilerplate/zipball/v1.0stripped"
 libraries[jquery][download][type] = "file"
