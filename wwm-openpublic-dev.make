@@ -235,8 +235,8 @@ projects[ninesixty][type] = "theme"
 
 ; Libraries
 ; ---------
-; libraries[colorbox][download][type] = "file"
-; libraries[colorbox][download][url] = "https://github.com/jackmoore/colorbox/archive/1.x.zip"
+libraries[colorbox][download][type] = "file"
+libraries[colorbox][download][url] = "https://github.com/jackmoore/colorbox/archive/1.x.zip"
 libraries[html5bp][download][type] = "file"
 libraries[html5bp][download][url] = "http://github.com/paulirish/html5-boilerplate/zipball/v1.0stripped"
 libraries[jquery][download][type] = "file"
