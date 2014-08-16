@@ -213,6 +213,7 @@ projects[] = stringoverrides
 projects[] = strongarm
 projects[] = token
 projects[] = transliteration
+projects[] = twitter
 projects[] = twitter_pull
 
 ; Reviewed on 2014-08-11 (No change)
