@@ -52,9 +52,9 @@ projects[] = checklistapi
 : Reviewed 2014-08-11
 ; Had to use dev version and apply patch to upgrade from platform that did not have libaries module installed
 ; projects[] = colorbox
-; projects[colorbox][type] = "module"
-; projects[colorbox][version] = 2.x-dev
-; projects[colorbox][patch][] = "https://www.drupal.org/files/issues/undefined_function_libraries_load-1851590-6.patch"
+projects[colorbox][type] = "module"
+projects[colorbox][version] = 2.x-dev
+projects[colorbox][patch][] = "https://www.drupal.org/files/issues/undefined_function_libraries_load-1851590-6.patch"
 
 projects[] = conditional_styles
 projects[] = comment_notify
@@ -213,10 +213,10 @@ projects[] = twitter_pull
 ; projects[views][version] = 3.x-dev
 ; projects[views][patch][] = "https://drupal.org/files/views-1249684-dependency-exposed-filter.patch"
 ; Patch did not apply so pulling from WWM Github Repo
-; projects[views][type] = "module"
-; projects[views][download][type] = "git"
-; projects[views][download][url] = "https://github.com/wickwood/views.git"
-; projects[views][download][branch] = 7.x-3.x-wwm
+projects[views][type] = "module"
+projects[views][download][type] = "git"
+projects[views][download][url] = "https://github.com/wickwood/views.git"
+projects[views][download][branch] = 7.x-3.x-wwm
 
 projects[] = video_filter
 projects[] = webform
