@@ -45,11 +45,12 @@ projects[openpublic][download][revision] = appify_services
 ; Modules
 ; --------
 projects[] = advanced_help
+projects[] = apps
 projects[] = backup_migrate
 projects[] = captcha
 projects[] = checklistapi
 
-: Reviewed 2014-08-11
+; Reviewed 2014-08-11
 ; Had to use dev version and apply patch to upgrade from platform that did not have libaries module installed
 ; projects[] = colorbox
 projects[colorbox][type] = "module"
@@ -62,9 +63,17 @@ projects[] = context
 projects[] = context_bool_field
 projects[] = context_breadcrumb_current_page
 projects[] = ctools
-projects[] = date
+
+; Reviewed 2014-08-16
+; Pulling Dev version because previous stable was labled 7.x-2.9-alpha1
+; but current stable is labled 7.x-2.8 and produces a warning in Aegir
+; projects[] = date
+projects[date][type] = "module"
+projects[date][version] = 2.x-dev
+
 projects[] = entitycache
 projects[] = entity
+projects[] = expire
 projects[] = facebook_pull
 projects[] = fblikebutton
 projects[] = features
@@ -190,6 +199,7 @@ projects[] = paypal_donate
 projects[] = password_policy 
 projects[] = pdf
 projects[] = plupload
+projects[] = purge
 projects[] = recaptcha
 projects[] = redirect
 projects[] = robotstxt
