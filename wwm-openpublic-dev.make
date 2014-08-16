@@ -193,6 +193,7 @@ projects[] = node_reference_view_formatter
 projects[] = nodeblock
 projects[] = nodeconnect
 projects[] = nodequeue
+projects[] = oauth
 projects[] = page_title
 projects[] = panels
 projects[] = paypal_donate
