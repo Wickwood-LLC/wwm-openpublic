@@ -26,6 +26,7 @@ api = 2
 ; alternative core projects like Pressflow. Note that makefiles included with
 ; install profiles *should not* include a core project.
 
+; Reviewed 2014-11-04
 ; Use OpenPublic instead of Drupal core:
 ; These commands were taken from the drush make files 
 ; in profile directory in the download from: http://drupal.org/project/openpublic
@@ -53,12 +54,12 @@ projects[] = backup_migrate
 projects[] = captcha
 projects[] = checklistapi
 
-; Reviewed 2014-08-11
+; Reviewed 2014-11-04
 ; Had to use dev version and apply patch to upgrade from platform that did not have libaries module installed
-; projects[] = colorbox
-projects[colorbox][type] = "module"
-projects[colorbox][version] = 2.x-dev
-projects[colorbox][patch][] = "https://www.drupal.org/files/issues/undefined_function_libraries_load-1851590-6.patch"
+projects[] = colorbox
+; projects[colorbox][type] = "module"
+; projects[colorbox][version] = 2.x-dev
+; projects[colorbox][patch][] = "https://www.drupal.org/files/issues/undefined_function_libraries_load-1851590-6.patch"
 
 projects[] = conditional_styles
 projects[] = comment_notify
