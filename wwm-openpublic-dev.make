@@ -98,6 +98,7 @@ projects[] = imce
 projects[] = link
 projects[] = libraries
 projects[] = mailchimp
+projects[] = mass_pwreset
 
 ; Reviewed on 2014-08-06 (No change)
 ; The following module needs to use the 1.x-dev version 
